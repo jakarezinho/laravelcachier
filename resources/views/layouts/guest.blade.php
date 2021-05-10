@@ -18,6 +18,7 @@
     </head>
     <body>
         <div class="font-sans text-gray-900 antialiased">
+          login
             {{ $slot }}
         </div>
     </body>
