@@ -7,7 +7,7 @@
 
     <div class="py-12 my-12 mx-20 px-12 bg-white rounded-md">
         @if (Auth::user()->subscribed('default'))
-        {{Auth::user()->subscription('default')->usageRecords()}}
+        role {{Auth::user()}}
         @endif
         <div class="flex flex-wrap mx-auto mt-12 max-w-7xl "> 
    
